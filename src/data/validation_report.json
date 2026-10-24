@@ -1,0 +1,220 @@
+{
+  "is_valid": true,
+  "total_expected_records": 200,
+  "total_actual_records": 200,
+  "total_crops": 5,
+  "total_growth_stages": 5,
+  "total_combinations": 25,
+  "total_parameters_per_combination": 8,
+  "verified_count": 175,
+  "unverified_count": 25,
+  "missing_records_count": 0,
+  "invalid_ranges_count": 0,
+  "missing_sources_count": 0,
+  "missing_records": [],
+  "invalid_ranges": [],
+  "missing_sources": [],
+  "unverified_records": [
+    {
+      "record_id": "maize_germination_establishment_light_intensity",
+      "crop": "Maize",
+      "stage": "Germination / Establishment",
+      "parameter": "Light Intensity",
+      "reason": "Seed germination and radicle emergence take place within the seedbed/soil substrate. Ambient illuminance is not an agronomic operational parameter for this subterranean phase. Verified stage-specific lux ranges are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Subterranean Germination Photic Standard"
+    },
+    {
+      "record_id": "maize_maturity_light_intensity",
+      "crop": "Maize",
+      "stage": "Maturity",
+      "parameter": "Light Intensity",
+      "reason": "Crop maturity is characterized by physiological senescence, chlorophyll breakdown, and dry-down. Operational minimum/maximum lux boundaries are neither prescribed nor limiting in agronomic practice.",
+      "gap_standard": "Agronomic Standard Gap: Senescence Stage Photic Threshold"
+    },
+    {
+      "record_id": "maize_maturity_nitrogen",
+      "crop": "Maize",
+      "stage": "Maturity",
+      "parameter": "Available Nitrogen (N)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "maize_maturity_phosphorus",
+      "crop": "Maize",
+      "stage": "Maturity",
+      "parameter": "Available Phosphorus (P)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "maize_maturity_potassium",
+      "crop": "Maize",
+      "stage": "Maturity",
+      "parameter": "Available Potassium (K)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "tomato_germination_establishment_light_intensity",
+      "crop": "Tomato",
+      "stage": "Germination / Establishment",
+      "parameter": "Light Intensity",
+      "reason": "Seed germination and radicle emergence take place within the seedbed/soil substrate. Ambient illuminance is not an agronomic operational parameter for this subterranean phase. Verified stage-specific lux ranges are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Subterranean Germination Photic Standard"
+    },
+    {
+      "record_id": "tomato_maturity_light_intensity",
+      "crop": "Tomato",
+      "stage": "Maturity",
+      "parameter": "Light Intensity",
+      "reason": "Crop maturity is characterized by physiological senescence, chlorophyll breakdown, and dry-down. Operational minimum/maximum lux boundaries are neither prescribed nor limiting in agronomic practice.",
+      "gap_standard": "Agronomic Standard Gap: Senescence Stage Photic Threshold"
+    },
+    {
+      "record_id": "tomato_maturity_nitrogen",
+      "crop": "Tomato",
+      "stage": "Maturity",
+      "parameter": "Available Nitrogen (N)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "tomato_maturity_phosphorus",
+      "crop": "Tomato",
+      "stage": "Maturity",
+      "parameter": "Available Phosphorus (P)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "tomato_maturity_potassium",
+      "crop": "Tomato",
+      "stage": "Maturity",
+      "parameter": "Available Potassium (K)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "rice_germination_establishment_light_intensity",
+      "crop": "Rice",
+      "stage": "Germination / Establishment",
+      "parameter": "Light Intensity",
+      "reason": "Seed germination and radicle emergence take place within the seedbed/soil substrate. Ambient illuminance is not an agronomic operational parameter for this subterranean phase. Verified stage-specific lux ranges are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Subterranean Germination Photic Standard"
+    },
+    {
+      "record_id": "rice_maturity_light_intensity",
+      "crop": "Rice",
+      "stage": "Maturity",
+      "parameter": "Light Intensity",
+      "reason": "Crop maturity is characterized by physiological senescence, chlorophyll breakdown, and dry-down. Operational minimum/maximum lux boundaries are neither prescribed nor limiting in agronomic practice.",
+      "gap_standard": "Agronomic Standard Gap: Senescence Stage Photic Threshold"
+    },
+    {
+      "record_id": "rice_maturity_nitrogen",
+      "crop": "Rice",
+      "stage": "Maturity",
+      "parameter": "Available Nitrogen (N)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "rice_maturity_phosphorus",
+      "crop": "Rice",
+      "stage": "Maturity",
+      "parameter": "Available Phosphorus (P)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "rice_maturity_potassium",
+      "crop": "Rice",
+      "stage": "Maturity",
+      "parameter": "Available Potassium (K)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "wheat_germination_establishment_light_intensity",
+      "crop": "Wheat",
+      "stage": "Germination / Establishment",
+      "parameter": "Light Intensity",
+      "reason": "Seed germination and radicle emergence take place within the seedbed/soil substrate. Ambient illuminance is not an agronomic operational parameter for this subterranean phase. Verified stage-specific lux ranges are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Subterranean Germination Photic Standard"
+    },
+    {
+      "record_id": "wheat_maturity_light_intensity",
+      "crop": "Wheat",
+      "stage": "Maturity",
+      "parameter": "Light Intensity",
+      "reason": "Crop maturity is characterized by physiological senescence, chlorophyll breakdown, and dry-down. Operational minimum/maximum lux boundaries are neither prescribed nor limiting in agronomic practice.",
+      "gap_standard": "Agronomic Standard Gap: Senescence Stage Photic Threshold"
+    },
+    {
+      "record_id": "wheat_maturity_nitrogen",
+      "crop": "Wheat",
+      "stage": "Maturity",
+      "parameter": "Available Nitrogen (N)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "wheat_maturity_phosphorus",
+      "crop": "Wheat",
+      "stage": "Maturity",
+      "parameter": "Available Phosphorus (P)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "wheat_maturity_potassium",
+      "crop": "Wheat",
+      "stage": "Maturity",
+      "parameter": "Available Potassium (K)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "groundnut_germination_establishment_light_intensity",
+      "crop": "Groundnut",
+      "stage": "Germination / Establishment",
+      "parameter": "Light Intensity",
+      "reason": "Seed germination and radicle emergence take place within the seedbed/soil substrate. Ambient illuminance is not an agronomic operational parameter for this subterranean phase. Verified stage-specific lux ranges are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Subterranean Germination Photic Standard"
+    },
+    {
+      "record_id": "groundnut_maturity_light_intensity",
+      "crop": "Groundnut",
+      "stage": "Maturity",
+      "parameter": "Light Intensity",
+      "reason": "Crop maturity is characterized by physiological senescence, chlorophyll breakdown, and dry-down. Operational minimum/maximum lux boundaries are neither prescribed nor limiting in agronomic practice.",
+      "gap_standard": "Agronomic Standard Gap: Senescence Stage Photic Threshold"
+    },
+    {
+      "record_id": "groundnut_maturity_nitrogen",
+      "crop": "Groundnut",
+      "stage": "Maturity",
+      "parameter": "Available Nitrogen (N)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "groundnut_maturity_phosphorus",
+      "crop": "Groundnut",
+      "stage": "Maturity",
+      "parameter": "Available Phosphorus (P)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    },
+    {
+      "record_id": "groundnut_maturity_potassium",
+      "crop": "Groundnut",
+      "stage": "Maturity",
+      "parameter": "Available Potassium (K)",
+      "reason": "Standard agronomic guidelines prohibit supplemental soil fertilization during the final maturity/ripening phase to prevent vegetative re-flushes, delayed ripening, lodging, and microbial infections. Stage-specific available soil nutrient targets are not defined.",
+      "gap_standard": "Agronomic Standard Gap: Late Maturity Nutrient Application Restrictions"
+    }
+  ],
+  "database_file": "C:\\Users\\HP\\.gemini\\antigravity-ide\\scratch\\smart-crop-stage-advisor\\src\\data\\reference_ranges.json"
+}
